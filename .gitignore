@@ -1,1 +1,32 @@
 
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+
+# ==============================
+# DATA CONTROL
+# ==============================
+
+# Ignore all data folder
+data/*
+
+# BUT allow raw data
+!data/raw/
+!data/raw/*.csv
+
+# ALSO allow processed data
+!data/processed/
+!data/processed/*.csv
+
+# ==============================
+# TABLEAU FILES
+# ==============================
+*.hyper
+*.tde
+*.temp
+
+# ==============================
+# LOGS
+# ==============================
+*.log
+tmp/
